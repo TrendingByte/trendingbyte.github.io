@@ -28,6 +28,8 @@ const config = {
 
   onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
+  deploymentBranch: 'main',
+  trailingSlash: false,
 
   presets: [
     [
@@ -35,19 +37,16 @@ const config = {
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
-
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://trendingbyte.github.io/docs/',
+          editUrl: 'https://trendingbyte.github.io/docs/',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://trendingbyte.github.io/blog/',
+          editUrl: 'https://trendingbyte.github.io/blog/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
