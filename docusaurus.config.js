@@ -60,10 +60,10 @@ const config = {
     ({
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: 'My Meta Project',
+        title: 'TrendingByte',
         logo: {
-          alt: 'My Meta Project Logo',
-          src: 'img/logo.svg',
+          alt: 'TrendingByte Logo',
+          src: 'img/trendingbyte.jpg',
         },
         items: [
           {
