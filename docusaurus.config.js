@@ -12,8 +12,8 @@
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'TrendingByte Knowledge Base',
-  tagline: 'The tagline of my site',
-  favicon: 'img/favicon.ico',
+  tagline: 'Byte-sized technology for big results.',
+  favicon: 'img/trendingbyte.jpg',
 
   // Set the production url of your site here
   url: 'https://trendingbyte.github.io/',
