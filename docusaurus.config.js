@@ -28,7 +28,7 @@ const config = {
 
   onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
-  deploymentBranch: 'main',
+  deploymentBranch: 'buffy',
   trailingSlash: false,
 
   presets: [
