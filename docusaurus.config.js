@@ -40,13 +40,13 @@ const config = {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl: 'https://trendingbyte.github.io/',
+          // editUrl: 'https://trendingbyte.github.io/',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl: 'https://trendingbyte.github.io/',
+          // editUrl: 'https://trendingbyte.github.io/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
