@@ -75,7 +75,7 @@ const config = {
           {to: 'blog', label: 'Blog', position: 'left'},
           // Please keep GitHub link to the right for consistency.
           {
-            href: 'https://github.com/facebook/docusaurus',
+            href: 'https://github.com/trandingbyte',
             label: 'GitHub',
             position: 'right',
           },
@@ -123,7 +123,7 @@ const config = {
               },
               {
                 label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                href: 'https://github.com/trandingbyte',
               },
             ],
           },
@@ -150,13 +150,13 @@ const config = {
             ],
           },
         ],
-        logo: {
-          alt: 'TrendingByte Logo',
-          // This default includes a positive & negative version, allowing for
-          // appropriate use depending on your site's style.
-          src: '/img/trendingbyte.jpg',
-          href: 'https://trendingbyte.vercel.app/',
-        },
+        // logo: {
+        //   alt: 'TrendingByte Logo',
+        //   // This default includes a positive & negative version, allowing for
+        //   // appropriate use depending on your site's style.
+        //   src: '/img/trendingbyte.jpg',
+        //   href: 'https://trendingbyte.vercel.app/',
+        // },
         // Please do not remove the credits, help to publicize Docusaurus :)
         copyright: `Copyright © ${new Date().getFullYear()} TrendingByte.`,
       },
