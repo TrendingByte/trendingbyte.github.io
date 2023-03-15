@@ -3,6 +3,6 @@
   "position": 3,
   "link": {
     "type": "generated-index",
-    "description": "5 minutes to learn the most important Docusaurus concepts."
+    "description": "This section of the documentation covers using Visual Studio Code, a popular code editor that provides a range of features for writing, debugging, and deploying code. The section includes information on how to install and set up VSCode, use its various features such as extensions and integrated terminal, keyboard shortcuts and customize the editor to fit your workflow."
   }
 }
