@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-# Use electron with react
+# Use Electron with React
 
 In this post, we'll explore how to use Electron with React to build cross-platform desktop applications. Electron is an open-source framework that allows developers to create native desktop applications using web technologies such as HTML, CSS, and JavaScript. React is a popular JavaScript library used for building user interfaces.
 To get started, open your terminal and run the following code to create a new React application:
