@@ -18,14 +18,14 @@ npm i concurrently wait-on cross-env electron
 ```
 
 Once the dependencies are installed, we need to configure our `package.json` file. Check your Electron version in the `dependencies` section and add the following scripts to the `scripts` section of the file:
-```
+```json title="package.json"
 "electron:serve": "concurrently -k \"cross-env BROWSER=none npm start\" \"npm run electron:start\"",
 "electron:build": "yarn build && electron-builder -c.extraMetadata.main=build/main.js",
 "electron:start": "wait-on tcp:3000 && electron ."
 ```
 
 We also need to add the following lines to the `package.json` file:This code added above scripts
-```
+```json title="package.json"
 "main": "public/main.js",
 "homepage": "./",
 ```
