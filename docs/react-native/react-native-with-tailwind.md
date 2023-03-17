@@ -8,22 +8,17 @@ In this post, we'll explore how to use React Native with Tailwind to build cross
 
 ## Installation of the dependencies
 
-import Tabs from '@theme/Tabs'; 
-import TabItem from '@theme/TabItem';
-<Tabs>
-  <TabItem value="npm" label="npm" default>
-    ```npm 
-    npm install twrnc
-    ```
-  </TabItem>
-  <TabItem value="yarn" label="yarn">
-    ```yarn
-    yarn add twrnc
-    ```
-  </TabItem>
+import Tabs from '@theme/Tabs'; import TabItem from '@theme/TabItem';
+
+<Tabs> 
+  <TabItem value="npm" label="npm" default> 
+  ```npm 
+  npm install twrnc 
+  ``` 
+  </TabItem> 
+  <TabItem value="yarn" label="yarn"> 
+  ```yarn 
+  yarn add twrnc 
+  ``` 
+  </TabItem> 
 </Tabs>
-
-
-
-
-
