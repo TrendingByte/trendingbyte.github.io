@@ -27,3 +27,15 @@ yarn add twrnc
 
 </TabItem>
 </Tabs>
+
+## Usage
+
+```jsx title="App.js"
+import tw from 'twrnc';
+
+const MyComponent = () => (
+  <View style={tw`bg-blue-100`}>
+    <Text style={tw`text-md', invalid && 'text-red-500`}>Hello</Text>
+  </View>
+);
+```
