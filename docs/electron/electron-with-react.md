@@ -32,9 +32,7 @@ We also need to add the following lines to the `package.json` file:This code add
 These lines tell Electron where to find the main entry point for the application and the root URL for the app.
 
 Next, create a `main.js` file in the `public` folder and add the following code:
-```
-// main.js
-
+```jsx title="public/main.js"
 // Modules to control application life and create native browser window
 const { app, BrowserWindow } = require("electron");
 
