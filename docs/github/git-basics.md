@@ -1,6 +1,5 @@
 ---
 sidebar_position: 1
-title: Git Basics
 ---
 
 `Git` is a powerful version control system that helps developers to manage their codebase and track changes over time. In this article, we will look at some of the most common Git commands used in production and explain how they work.
