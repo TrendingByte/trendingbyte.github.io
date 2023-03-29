@@ -10,7 +10,7 @@ sidebar_position: 1
 
 ### Fetch
 ```
-fetch("http://139.180.217.104:41021/api/home-page?" + "populate[AboutUs][populate]=*" )
+fetch("localhost:1337/api/home-page?" + "populate[AboutUs][populate]=*" )
 ```
 
 ## OurActivities
@@ -19,7 +19,7 @@ fetch("http://139.180.217.104:41021/api/home-page?" + "populate[AboutUs][populat
 
 ### Fetch
 ```
-fetch("http://139.180.217.104:41021/api/home-page?" + "&populate[OurActivities][populate][0]=Cards.image" )
+fetch("localhost:1337/api/home-page?" + "&populate[OurActivities][populate][0]=Cards.image" )
 ```
 
 ## TfCounter
@@ -29,7 +29,7 @@ fetch("http://139.180.217.104:41021/api/home-page?" + "&populate[OurActivities][
 
 ### Fetch
 ```
-fetch("http://139.180.217.104:41021/api/home-page?" + "&populate[TfCounter][populate]=bg1" + "&populate[TfCounter][populate]=bg2" + "&populate[TfCounter][populate][0]=Counters.image" )
+fetch("localhost:1337/api/home-page?" + "&populate[TfCounter][populate]=bg1" + "&populate[TfCounter][populate]=bg2" + "&populate[TfCounter][populate][0]=Counters.image" )
 ```
 
 
